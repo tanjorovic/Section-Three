@@ -50,7 +50,7 @@ public class LogicalOperators {
 
         // good performance or is a long term employee: System.out.println("The user is eligible for a promotion.");
         // otherwise: System.out.println("The user is not eligible for a promotion.");
-        if (hasDrivingLicense||isLongTermEmployee){
+        if (hasGoodPerformance||isLongTermEmployee){
             System.out.println("The user is eligible for a promotion.");
         }else {
             System.out.println("The user is not eligible for a promotion.");
