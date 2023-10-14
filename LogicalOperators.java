@@ -111,7 +111,7 @@ public class LogicalOperators {
         if(!(move.equals("hit") || move.equals("stay"))){
             System.out.println("Please choose a valid move");
         }else{
-            System.out.println("You win 10 bucks!");
+            System.out.println("You win 10 bucks!.");
         }
 
     }
